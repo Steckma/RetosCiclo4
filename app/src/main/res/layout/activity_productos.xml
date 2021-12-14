@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Productos" >
+
+    <TableRow
+        android:layout_width="344dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/agregarp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/actualizarp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/borrarp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Borrar" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/chaquetacuero"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/chaquetacuerohombre"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chaqueta cuero"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/add0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/chaquetahombre"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/chaquetahombre"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chaqueta sport"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/add1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/chaquetamujer"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/chaquetamujer"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion2"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="chaqueta dama"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/add2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/abrigomujer"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/abrigomujer"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blazer dama"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/add3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/chaquetaniña"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/chaquetania"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abrigo niña"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/add4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/rines"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/chaquetanio"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/descripcion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cha capitan america"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center"  />
+
+        <Button
+            android:id="@+id/add5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÑADIR" />
+
+    </TableRow>
+
+</TableLayout>

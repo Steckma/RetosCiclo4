@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Servicios">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/agregars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/actualizars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizar" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/borrars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/aceit"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/arreglos" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/arreglo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" arreglos de ropa "
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/addservicio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGREGAR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/lavad"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/disenopersonalizado"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/diseño"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" diseño de ropa "
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/addservicio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGREGAR" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/mantenimient"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/tintura"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/tintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" tintura de chaqueta "
+            android:textColor="@color/purple_200"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addservicio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGREGAR" />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Chaquetas">chaquetas</string>
+    <string name="carrito">carrito</string>
+    <string name="sucursales">sucursales</string>
+    <string name="servicios">servicios</string>
+    <string name="productos">productos</string>
+    <string name="favoritos">favoritos</string>
+</resources>
