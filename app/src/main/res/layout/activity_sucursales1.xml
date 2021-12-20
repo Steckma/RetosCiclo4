@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Sucursales1">
+
+    <TextView
+        android:id="@+id/labelFrom"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion del local: "
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu ubicacion: " />
+
+    <TextView
+
+        android:id="@+id/labelTo"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_To"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa la ubicacion de destino" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:id="@+id/distancia"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="puedes observar nuestras sedes para tu domicilio y hacer seguimiento a tu producto"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tiempo"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo: "
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/costo"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: "
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

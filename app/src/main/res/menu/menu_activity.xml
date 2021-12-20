@@ -21,8 +21,8 @@
         app:showAsAction="always"
         />
 
-    <item android:id="@+id/favoritos"
-        android:title="@string/favoritos"
+    <item android:id="@+id/sucursales1"
+        android:title="maps"
         />
 
 </menu>

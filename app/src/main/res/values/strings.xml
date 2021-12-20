@@ -6,4 +6,7 @@
     <string name="servicios">servicios</string>
     <string name="productos">productos</string>
     <string name="favoritos">favoritos</string>
+    <string name="apikey">AIzaSyB4G1cJAZT6vS8rdrOw35HdLlZJjj8sJ08</string>
+    <string name="label_To">label_to</string>
+
 </resources>
